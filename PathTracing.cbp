@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="PathTracing"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PathTracing">
+				<Option output="/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/PathTracing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/opencv4"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/Makefile&quot;  VERBOSE=1 PathTracing"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PathTracing/fast">
+				<Option output="/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/PathTracing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/opencv4"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/Makefile&quot;  VERBOSE=1 PathTracing/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/const/Constant.cpp">
+			<Option target="PathTracing"/>
+		</Unit>
+		<Unit filename="/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/const/Constant.h">
+			<Option target="PathTracing"/>
+		</Unit>
+		<Unit filename="/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/const/Ray.h">
+			<Option target="PathTracing"/>
+		</Unit>
+		<Unit filename="/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/const/Vec.cpp">
+			<Option target="PathTracing"/>
+		</Unit>
+		<Unit filename="/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/const/Vec.h">
+			<Option target="PathTracing"/>
+		</Unit>
+		<Unit filename="/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/main.cpp">
+			<Option target="PathTracing"/>
+		</Unit>
+		<Unit filename="/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/object/AABB.cpp">
+			<Option target="PathTracing"/>
+		</Unit>
+		<Unit filename="/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/object/AABB.h">
+			<Option target="PathTracing"/>
+		</Unit>
+		<Unit filename="/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/object/Face.h">
+			<Option target="PathTracing"/>
+		</Unit>
+		<Unit filename="/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/object/KdTree.cpp">
+			<Option target="PathTracing"/>
+		</Unit>
+		<Unit filename="/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/object/KdTree.h">
+			<Option target="PathTracing"/>
+		</Unit>
+		<Unit filename="/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/object/Obj.cpp">
+			<Option target="PathTracing"/>
+		</Unit>
+		<Unit filename="/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/object/Obj.h">
+			<Option target="PathTracing"/>
+		</Unit>
+		<Unit filename="/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/object/Object.h">
+			<Option target="PathTracing"/>
+		</Unit>
+		<Unit filename="/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/object/Plane.cpp">
+			<Option target="PathTracing"/>
+		</Unit>
+		<Unit filename="/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/object/Plane.h">
+			<Option target="PathTracing"/>
+		</Unit>
+		<Unit filename="/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/object/Spheres.cpp">
+			<Option target="PathTracing"/>
+		</Unit>
+		<Unit filename="/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/object/Spheres.h">
+			<Option target="PathTracing"/>
+		</Unit>
+		<Unit filename="/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/object/Texture.cpp">
+			<Option target="PathTracing"/>
+		</Unit>
+		<Unit filename="/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/object/Texture.h">
+			<Option target="PathTracing"/>
+		</Unit>
+		<Unit filename="/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/world&amp;camera/Camera.h">
+			<Option target="PathTracing"/>
+		</Unit>
+		<Unit filename="/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/world&amp;camera/World.cpp">
+			<Option target="PathTracing"/>
+		</Unit>
+		<Unit filename="/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/world&amp;camera/World.h">
+			<Option target="PathTracing"/>
+		</Unit>
+		<Unit filename="/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/../../../../../../usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/../../../../../../usr/local/lib/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/../../../../../../usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/Users/xianyu/Desktop/SourceCode/graphicsHW/PathTracing/../../../../../../usr/local/lib/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
